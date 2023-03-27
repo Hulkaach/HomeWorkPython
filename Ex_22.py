@@ -22,3 +22,23 @@ list3 = list1.intersection(list2)
 
 print(f"Элементы, которые встечаются в обоих массивах: {list3}")
 print(f"Отсортированные в порядке возрастания элементы, которые встечаются в обоих массивах: {sorted(list3)}")
+
+# mol = [int(x) for x in input().split()]
+# n = mol[0]
+# m = mol[1]
+# set_1 = set()
+# set_2 = set()
+# list_1 = list()
+# a = [int(x) for x in input().split()]
+# k = set(a)
+# for i in k:
+#     set_1.add(i)
+# b = [int(x) for x in input().split()]
+# k1 = set(b)
+# for i in k1:
+#     set_2.add(i)
+# lok = set_1 & set_2
+# kool = list(lok)
+# kool.sort()
+# for i in kool:
+#     print(i, end=' ')
